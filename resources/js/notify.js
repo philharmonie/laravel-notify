@@ -1,5 +1,3 @@
-import Alpine from 'alpinejs'
-
 const notification = document.querySelector('div.notify')
 
 if (notification) {
@@ -7,6 +5,3 @@ if (notification) {
     notification.remove()
   }, notify.timeout )
 }
-
-window.Alpine = Alpine
-Alpine.start()
